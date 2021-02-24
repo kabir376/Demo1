@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skyimg"
+    tools:context=".MainActivity">
+
+
+
+
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#B39494"
+        android:gravity="center"
+        android:text="Age Of DOB"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Year"
+        android:id="@+id/inputYear"/>
+
+    <Button
+        android:id="@+id/onSubmit"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSubmit"
+        android:text="Button"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Age : 0"
+        android:id="@+id/tvAge"/>
+-->
+
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:layout_height="wrap_content"
+      android:text="Hello"
+      android:textSize="50sp"
+      android:layout_marginTop="50dp"
+      tools:layout_editor_absoluteX="149dp"
+      tools:layout_editor_absoluteY="81dp" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:textSize="15sp"
+      android:text="Sign in to your account"
+
+      android:layout_gravity="center"
+      tools:layout_editor_absoluteY="166dp" />
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      android:layout_margin="10dp"
+      app:cardCornerRadius="20dp"
+      app:cardElevation="3dp"
+
+      android:outlineAmbientShadowColor="#D3DEDF">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:orientation="vertical"
+      android:background="@drawable/linearshape"
+      android:layout_margin="20dp">
+
+
+  <EditText
+      android:id="@+id/editTextTextPersonName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:padding="8dp"
+      android:ems="10"
+      android:background="@drawable/useredit"
+      android:hint="User Name"
+      android:inputType="textPersonName"
+      android:drawableLeft="@drawable/ic_user" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/useredit"
+      android:padding="8dp"
+      android:layout_marginBottom="10dp"
+      android:password="true"
+      android:ems="10"
+      android:hint="Password"
+      android:drawableLeft="@drawable/ic_padlock__1_"
+      android:inputType="textPersonName"
+      />
+
+    <TextView
+        android:id="@+id/textView4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:text="Forgot Your Password"
+        android:layout_marginRight="30dp" />
+
+  </LinearLayout>
+  </androidx.cardview.widget.CardView>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+    android:layout_marginLeft="180dp"
+    android:orientation="horizontal">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Sign In"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/ic_right_arrow"
+      android:background="#000000"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="10dp" />
+
+
+
+
+
+
+
+  </LinearLayout>
+
+</LinearLayout>
